@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.objectFactory"
+		value="org.apache.struts2.spring.StrutsSpringObjectFactory" />
+	<constant name="struts.objectFactory.spring.autoWire" value="type" />
+	<constant name="struts.convention.package.locators.basePackage" value="com.hd.action"/>
+	<constant name="struts.locale" value="zh_CN" />
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.ui.theme" value="simple" />
+	<constant name="struts.convention.result.path" value="/" />
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	<constant name="struts.convention.action.disableScanning"
+		value="false" />
+   <constant name="struts.action.excludePattern" value="/static/.*?" /><!-- default locale -->
+	<constant name="struts.convention.action.suffix" value="Action" />
+	<constant name="struts.convention.action.mapAllMatches" value="true" />
+	<constant name="struts.convention.default.parent.package" 
+		value="default" /> 
+	<constant name="struts.convention.package.locators" value="action" />
+    <package name="default" extends="json-default">
+        <interceptors>
+			<interceptor-stack name="default">
+				<interceptor-ref name="json"></interceptor-ref>
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="default" />
+	 	<global-results>
+			<result name="ajax" type="json">
+			    <param name="root">message</param>
+			</result>
+		</global-results> 
+    </package>
+</struts>
