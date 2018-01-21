@@ -17,7 +17,7 @@ import com.hd.dao.BaseDao;
 /**
  * Created by Administrator on 2016/4/1.
  */
-@Repository("baseDao")
+@Repository
 public class BaseDaoImpl<T, PK extends Serializable> implements BaseDao<T, PK> {
 	@Autowired
 	private SessionFactory sessionFactory;
@@ -75,7 +75,7 @@ public class BaseDaoImpl<T, PK extends Serializable> implements BaseDao<T, PK> {
 
 	// 更新
 	public void update(T o) {
-		getCurrentSession().update(o);
+		getCurrentSession().merge(o);
 	}
 
 	// 更新或保存
@@ -137,13 +137,13 @@ public class BaseDaoImpl<T, PK extends Serializable> implements BaseDao<T, PK> {
 	}
 
 	// 分页,page：当前页，rows:分页大小
-	public List<T> find(String hql, int page, int rows) {
+	public List<T> findPage(String hql, int page, int rows) {
 		Query q = getCurrentSession().createQuery(hql);
 		return q.setFirstResult((page - 1) * rows).setMaxResults(rows).list();
 	}
 
 	// 带参分页，page：当前页，rows:分页大小
-	public List<T> find(String hql, int page, int rows, Object... params) {
+	public List<T> findPageByObject(String hql, int page, int rows, Object... params) {
 		Query q = getCurrentSession().createQuery(hql);
 		for (int i = 0; i < params.length; i++) {
 			q.setParameter(i, params[i]);

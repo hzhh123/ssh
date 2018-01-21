@@ -46,10 +46,10 @@ public interface BaseDao<T, PK extends Serializable> {
 	List<T> find(String hql, Object... params);
 
 	// 分页查询
-	List<T> find(String hql, int page, int rows);
+	List<T> findPage(String hql, int page, int rows);
 
 	// 带参分页查询
-	List<T> find(String hql, int page, int rows, Object... params);
+	List<T> findPageByObject(String hql, int page, int rows, Object... params);
 
 	// 查询总记录数
 	Long count(String hql);

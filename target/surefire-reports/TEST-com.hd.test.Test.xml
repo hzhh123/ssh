@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.412" errors="2" skipped="0" tests="3" name="com.hd.test.Test">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk7\jre\bin"/>
+    <property name="java.vm.version" value="23.7-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\eclipse_work2\ssh"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\eclipse_work2\ssh"/>
+    <property name="java.runtime.version" value="1.7.0_17-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk7\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8"/>
+    <property name="classworlds.conf" value="D:\workspace\eclipse_work2\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7864074334120992107.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin/server;D:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin;D:/Program Files/Java/jdk1.8.0_121/bin/../jre/lib/amd64;D:\soft\app\Administratot\product\11.2.0\dbhome_1\bin;E:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_121\bin;D:\Program Files\Java\jdk1.8.0_121\jre\bin;D:\soft\maven\maven\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;D:\Program Files\TortoiseGit\bin;D:\soft\senchacmd6;C:\Program Files\VisualSVN Server\bin;D:\soft\gradle\gradle-3.5\bin;D:\soft\java plugin\spring-1.3.0.BUILD-SNAPSHOT\bin;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;D:\soft\gradle\gradle-3.5\BIN;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;D:\soft\groovy\groovy\groovy-2.6.0\bin;D:\Program Files\python\Scripts\;D:\Program Files\python\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\soft\Android-sdk\tools;D:\soft\Android-sdk\platform-tools;C:\Users\Administrator\AppData\Roaming\npm;D:\Program Files\Microsoft VS Code\bin;D:\Program Files\eclipse-jee-oxygen\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.2"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="D:\soft\maven\maven\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk7\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -gs D:\soft\maven\maven\conf\settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0_17"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk7\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk7\jre\lib\resources.jar;D:\Program Files\Java\jdk7\jre\lib\rt.jar;D:\Program Files\Java\jdk7\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk7\jre\lib\jsse.jar;D:\Program Files\Java\jdk7\jre\lib\jce.jar;D:\Program Files\Java\jdk7\jre\lib\charsets.jar;D:\Program Files\Java\jdk7\jre\lib\jfr.jar;D:\Program Files\Java\jdk7\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\soft\maven\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.008" classname="com.hd.test.Test" name="testDB"/>
+  <testcase time="0.403" classname="com.hd.test.Test" name="test2">
+    <error message="org/codehaus/jackson/map/ObjectMapper" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/codehaus/jackson/map/ObjectMapper
+	at com.hd.util.JsonUtil.toJson(JsonUtil.java:8)
+	at com.hd.test.Test.test2(Test.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.jackson.map.ObjectMapper
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	... 37 more
+</error>
+    <system-out>2018-01-15 16:32:57,293 WARN [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 42 in HQL: [from com.hd.entity.UserRole where userId=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead. 
+Hibernate: 
+    select
+        userrole0_.id as id1_5_,
+        userrole0_.role_id as role_id2_5_,
+        userrole0_.user_id as user_id3_5_ 
+    from
+        user_role userrole0_ 
+    where
+        userrole0_.user_id=?
+2018-01-15 16:32:57,439 WARN [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 46 in HQL: [from com.hd.entity.RoleResource where roleId=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead. 
+Hibernate: 
+    select
+        roleresour0_.id as id1_2_,
+        roleresour0_.resource_id as resource2_2_,
+        roleresour0_.role_id as role_id3_2_ 
+    from
+        role_resource roleresour0_ 
+    where
+        roleresour0_.role_id=?
+Hibernate: 
+    select
+        roleresour0_.id as id1_2_,
+        roleresour0_.resource_id as resource2_2_,
+        roleresour0_.role_id as role_id3_2_ 
+    from
+        role_resource roleresour0_ 
+    where
+        roleresour0_.role_id=?
+2018-01-15 16:32:57,492 WARN [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 38 in HQL: [from com.hd.entity.Resource where id=? and resourceType=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead. 
+2018-01-15 16:32:57,493 WARN [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 57 in HQL: [from com.hd.entity.Resource where id=? and resourceType=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead. 
+Hibernate: 
+    select
+        resource0_.id as id1_0_,
+        resource0_.create_time as create_t2_0_,
+        resource0_.description as descript3_0_,
+        resource0_.icon as icon4_0_,
+        resource0_.level as level5_0_,
+        resource0_.name as name6_0_,
+        resource0_.open_mode as open_mod7_0_,
+        resource0_.opened as opened8_0_,
+        resource0_.pid as pid9_0_,
+        resource0_.resource_type as resourc10_0_,
+        resource0_.seq as seq11_0_,
+        resource0_.status as status12_0_,
+        resource0_.url as url13_0_ 
+    from
+        resource resource0_ 
+    where
+        resource0_.id=? 
+        and resource0_.resource_type=?
+Hibernate: 
+    select
+        resource0_.id as id1_0_,
+        resource0_.create_time as create_t2_0_,
+        resource0_.description as descript3_0_,
+        resource0_.icon as icon4_0_,
+        resource0_.level as level5_0_,
+        resource0_.name as name6_0_,
+        resource0_.open_mode as open_mod7_0_,
+        resource0_.opened as opened8_0_,
+        resource0_.pid as pid9_0_,
+        resource0_.resource_type as resourc10_0_,
+        resource0_.seq as seq11_0_,
+        resource0_.status as status12_0_,
+        resource0_.url as url13_0_ 
+    from
+        resource resource0_ 
+    where
+        resource0_.id=? 
+        and resource0_.resource_type=?
+Hibernate: 
+    select
+        resource0_.id as id1_0_,
+        resource0_.create_time as create_t2_0_,
+        resource0_.description as descript3_0_,
+        resource0_.icon as icon4_0_,
+        resource0_.level as level5_0_,
+        resource0_.name as name6_0_,
+        resource0_.open_mode as open_mod7_0_,
+        resource0_.opened as opened8_0_,
+        resource0_.pid as pid9_0_,
+        resource0_.resource_type as resourc10_0_,
+        resource0_.seq as seq11_0_,
+        resource0_.status as status12_0_,
+        resource0_.url as url13_0_ 
+    from
+        resource resource0_ 
+    where
+        resource0_.id=? 
+        and resource0_.resource_type=?
+</system-out>
+  </testcase>
+  <testcase time="0.001" classname="com.hd.test.Test" name="test3">
+    <error message="Unresolved compilation problem: 
+	The method findDataGrid(Integer, Integer, String) in the type UserService is not applicable for the arguments (int, int, User)
+" type="java.lang.Error">java.lang.Error: Unresolved compilation problem: 
+	The method findDataGrid(Integer, Integer, String) in the type UserService is not applicable for the arguments (int, int, User)
+
+	at com.hd.test.Test.test3(Test.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+</testsuite>
